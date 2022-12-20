@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ikusuba"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.5.2"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Worldcraft",
+		"description": "Some addition to Minecraft that makes vanilla more better.",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "b6692d80-a621-4ab6-9790-5814e26f1168",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "9e1e1ed4-7cd8-4d8e-a176-eb37dcaf2fa6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5da40562-3152-4757-8d60-e0eb00d63477",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

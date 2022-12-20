@@ -1,0 +1,75 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"ikusuba"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.5.2"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Worldcraft",
+		"description": "Some addition to Minecraft that makes vanilla more better.",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "5da40562-3152-4757-8d60-e0eb00d63477",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "cfe6cf3d-015a-4d99-a2ee-cc4d2834cea8",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "63b62c15-e9ff-48ec-a9db-51e7ad03ff07",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b6692d80-a621-4ab6-9790-5814e26f1168",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}
