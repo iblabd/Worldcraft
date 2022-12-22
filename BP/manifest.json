@@ -15,7 +15,7 @@
 	},
 	"header": {
 		"name": "Worldcraft",
-		"description": "Some addition to Minecraft that makes vanilla more better.",
+		"description": "Some addition to Minecraft that makes vanilla much way better.",
 		"min_engine_version": [
 			1,
 			19,
@@ -23,9 +23,9 @@
 		],
 		"uuid": "5da40562-3152-4757-8d60-e0eb00d63477",
 		"version": [
-			1,
 			0,
-			0
+			0,
+			4
 		]
 	},
 	"modules": [
@@ -33,9 +33,9 @@
 			"type": "data",
 			"uuid": "cfe6cf3d-015a-4d99-a2ee-cc4d2834cea8",
 			"version": [
-				1,
 				0,
-				0
+				0,
+				4
 			]
 		},
 		{
@@ -44,9 +44,9 @@
 			"uuid": "63b62c15-e9ff-48ec-a9db-51e7ad03ff07",
 			"entry": "scripts/main.js",
 			"version": [
-				1,
 				0,
-				0
+				0,
+				4
 			]
 		}
 	],
@@ -54,9 +54,9 @@
 		{
 			"uuid": "b6692d80-a621-4ab6-9790-5814e26f1168",
 			"version": [
-				1,
 				0,
-				0
+				0,
+				4
 			]
 		},
 		{
