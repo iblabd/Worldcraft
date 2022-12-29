@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.zombie": {
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "query.is_name_any('Classic') ? Texture.zombie_plain_1 : (query.mark_variant == 0) ? Array.Plains[variable.Xvar]"
+      ],
+      "arrays": {
+        "textures": {
+          "Array.Plains": [
+            "Texture.zombie_plain_1",
+            "Texture.zombie_plain_2",
+            "Texture.zombie_plain_3",
+            "Texture.zombie_plain_4",
+            "Texture.zombie_plain_5",
+            "Texture.zombie_plain_6",
+            "Texture.zombie_plain_7",
+            "Texture.zombie_plain_8",
+            "Texture.zombie_plain_9",
+            "Texture.zombie_plain_10",
+            "Texture.zombie_plain_11",
+            "Texture.zombie_plain_12",
+            "Texture.zombie_plain_13",
+            "Texture.zombie_plain_14",
+            "Texture.zombie_plain_15"
+          ]
+        }
+      }
+    }
+  }
+}
