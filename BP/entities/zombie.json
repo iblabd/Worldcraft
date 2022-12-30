@@ -118,7 +118,17 @@
       },
       "minecraft:can_break_doors": {
         "minecraft:annotation.break_door": {}
+      },
+      "jungle_zombie": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
       }
+      // "swamp_zombie" {
+      //   "minecraft:mark_variant": {
+      //     "value": 2
+      //   }
+      // }
     },
     "components": {
       "minecraft:is_hidden_when_invisible": {},
@@ -568,7 +578,49 @@
                 "weight": 90
               }
             ]
+          },
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "jungle"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "taiga"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "bamboo"
+                }
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "jungle_zombie"
+              ]
+            }
           }
+          // {
+          //   "filter": {
+          //     "any_of": [
+          //       {
+          //         "test": "has_biome_tag",
+          //         "value": "swamp"
+          //       },
+          //       {
+          //         "test": "has_biome_tag",
+          //         "value": "mangrove_swamp"
+          //       }
+          //     ]
+          //   },
+          //   "add": {
+          //     "component_groups": [
+          //       "swamp_zombie"
+          //     ]
+          //   }
+          // }
         ]
       },
       "minecraft:as_adult": {

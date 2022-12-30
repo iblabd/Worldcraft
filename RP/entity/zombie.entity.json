@@ -8,6 +8,7 @@
         "default": "zombie"
       },
       "textures": {
+        "default": "textures/entity/zombie/zombie",
         "zombie_plain_1": "textures/entity/zombie/zombie/zombie_plain_1",
         "zombie_plain_2": "textures/entity/zombie/zombie/zombie_plain_2",
         "zombie_plain_3": "textures/entity/zombie/zombie/zombie_plain_3",
@@ -22,7 +23,22 @@
         "zombie_plain_12": "textures/entity/zombie/zombie/zombie_plain_12",
         "zombie_plain_13": "textures/entity/zombie/zombie/zombie_plain_13",
         "zombie_plain_14": "textures/entity/zombie/zombie/zombie_plain_14",
-        "zombie_plain_15": "textures/entity/zombie/zombie/zombie_plain_15"
+        "zombie_plain_15": "textures/entity/zombie/zombie/zombie_plain_15",
+        "zombie_jungle_1": "textures/entity/zombie/zombie/zombie_jungle_1",
+        "zombie_jungle_2": "textures/entity/zombie/zombie/zombie_jungle_2",
+        "zombie_jungle_3": "textures/entity/zombie/zombie/zombie_jungle_3",
+        "zombie_jungle_4": "textures/entity/zombie/zombie/zombie_jungle_4",
+        "zombie_jungle_5": "textures/entity/zombie/zombie/zombie_jungle_5",
+        "zombie_jungle_6": "textures/entity/zombie/zombie/zombie_jungle_6",
+        "zombie_jungle_7": "textures/entity/zombie/zombie/zombie_jungle_7",
+        "zombie_jungle_8": "textures/entity/zombie/zombie/zombie_jungle_8",
+        "zombie_jungle_9": "textures/entity/zombie/zombie/zombie_jungle_9",
+        "zombie_jungle_10": "textures/entity/zombie/zombie/zombie_jungle_10",
+        "zombie_jungle_11": "textures/entity/zombie/zombie/zombie_jungle_11",
+        "zombie_jungle_12": "textures/entity/zombie/zombie/zombie_jungle_12",
+        "zombie_jungle_13": "textures/entity/zombie/zombie/zombie_jungle_13",
+        "zombie_jungle_14": "textures/entity/zombie/zombie/zombie_jungle_14",
+        "zombie_jungle_15": "textures/entity/zombie/zombie/zombie_jungle_15"
       },
       "geometry": {
         "default": "geometry.zombie.v1.8"
