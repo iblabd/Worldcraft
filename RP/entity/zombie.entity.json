@@ -8,21 +8,21 @@
         "default": "zombie"
       },
       "textures": {
-        "zombie_plain_1": "textures/entity/zombie/zombie",
-        "zombie_plain_2": "textures/entity/zombie/zombie2",
-        "zombie_plain_3": "textures/entity/zombie/zombie3",
-        "zombie_plain_4": "textures/entity/zombie/zombie4",
-        "zombie_plain_5": "textures/entity/zombie/zombie5",
-        "zombie_plain_6": "textures/entity/zombie/zombie6",
-        "zombie_plain_7": "textures/entity/zombie/zombie7",
-        "zombie_plain_8": "textures/entity/zombie/zombie8",
-        "zombie_plain_9": "textures/entity/zombie/zombie9",
-        "zombie_plain_10": "textures/entity/zombie/zombie10",
-        "zombie_plain_11": "textures/entity/zombie/zombie11",
-        "zombie_plain_12": "textures/entity/zombie/zombie12",
-        "zombie_plain_13": "textures/entity/zombie/zombie13",
-        "zombie_plain_14": "textures/entity/zombie/zombie14",
-        "zombie_plain_15": "textures/entity/zombie/zombie15"
+        "zombie_plain_1": "textures/entity/zombie/zombie/zombie_plain_1",
+        "zombie_plain_2": "textures/entity/zombie/zombie/zombie_plain_2",
+        "zombie_plain_3": "textures/entity/zombie/zombie/zombie_plain_3",
+        "zombie_plain_4": "textures/entity/zombie/zombie/zombie_plain_4",
+        "zombie_plain_5": "textures/entity/zombie/zombie/zombie_plain_5",
+        "zombie_plain_6": "textures/entity/zombie/zombie/zombie_plain_6",
+        "zombie_plain_7": "textures/entity/zombie/zombie/zombie_plain_7",
+        "zombie_plain_8": "textures/entity/zombie/zombie/zombie_plain_8",
+        "zombie_plain_9": "textures/entity/zombie/zombie/zombie_plain_9",
+        "zombie_plain_10": "textures/entity/zombie/zombie/zombie_plain_10",
+        "zombie_plain_11": "textures/entity/zombie/zombie/zombie_plain_11",
+        "zombie_plain_12": "textures/entity/zombie/zombie/zombie_plain_12",
+        "zombie_plain_13": "textures/entity/zombie/zombie/zombie_plain_13",
+        "zombie_plain_14": "textures/entity/zombie/zombie/zombie_plain_14",
+        "zombie_plain_15": "textures/entity/zombie/zombie/zombie_plain_15"
       },
       "geometry": {
         "default": "geometry.zombie.v1.8"
@@ -34,7 +34,7 @@
       "scripts": {
         "pre_animation": [
           "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
-          "variable.Xvar = (variable.Xvar ?? Math.random(0,14));"
+          "variable.Xvar = (variable.Xvar ?? Math.random_integer(0,14));"
         ]
       },
       "animations": {
