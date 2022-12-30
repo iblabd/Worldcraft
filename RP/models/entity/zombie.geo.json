@@ -627,16 +627,6 @@
 			},
 			{
 				"name": "head",
-				"parent": "body",
-				"pivot": [
-					0,
-					24,
-					0
-				]
-			},
-			{
-				"name": "head2",
-				"parent": "head",
 				"pivot": [
 					0,
 					24,
