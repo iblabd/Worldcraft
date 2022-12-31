@@ -128,6 +128,11 @@
         "minecraft:mark_variant": {
           "value": 2
         }
+      },
+      "snowy_zombie": {
+        "minecraft:mark_variant": {
+          "value": 3
+        }
       }
     },
     "components": {
@@ -618,6 +623,33 @@
             "add": {
               "component_groups": [
                 "swamp_zombie"
+              ]
+            }
+          },
+          {
+            "filter": {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "frozen"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "ice"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "ice_plains"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "snowy_slopes"
+                }
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "snowy_zombie"
               ]
             }
           }

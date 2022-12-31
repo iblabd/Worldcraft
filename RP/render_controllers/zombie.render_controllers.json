@@ -9,7 +9,7 @@
         }
       ],
       "textures": [
-        "query.is_name_any('Classic') ? Texture.default : (query.mark_variant == 0) ? Array.Plain[variable.Xvar] : (query.mark_variant == 1) ? Array.Jungle[variable.Xvar] : (query.mark_variant == 2) ? Array.Swamp[variable.Xvar]"
+        "query.is_name_any('Classic') ? Texture.default : (query.mark_variant == 0) ? Array.Plain[variable.Xvar] : (query.mark_variant == 1) ? Array.Jungle[variable.Xvar] : (query.mark_variant == 2) ? Array.Swamp[variable.Xvar] : (query.mark_variant == 3) ? Array.Snowy[variable.Xvar] : "
       ],
       "arrays": {
         "textures": {
@@ -45,10 +45,20 @@
             "Texture.zombie_swamp_7",
             "Texture.zombie_swamp_8",
             "Texture.zombie_swamp_9"
+          ],
+          "Array.Snowy": [
+            "Texture.zombie_snowy_1",
+            "Texture.zombie_snowy_2",
+            "Texture.zombie_snowy_3",
+            "Texture.zombie_snowy_4",
+            "Texture.zombie_snowy_5",
+            "Texture.zombie_snowy_6",
+            "Texture.zombie_snowy_7",
+            "Texture.zombie_snowy_8",
+            "Texture.zombie_snowy_9"
           ]
         }
       }
     }
   }
-}
 }

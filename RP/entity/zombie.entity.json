@@ -35,7 +35,16 @@
         "zombie_swamp_6": "textures/entity/zombie/zombie/zombie_swamp_6",
         "zombie_swamp_7": "textures/entity/zombie/zombie/zombie_swamp_7",
         "zombie_swamp_8": "textures/entity/zombie/zombie/zombie_swamp_8",
-        "zombie_swamp_9": "textures/entity/zombie/zombie/zombie_swamp_9"
+        "zombie_swamp_9": "textures/entity/zombie/zombie/zombie_swamp_9",
+        "zombie_snowy_1": "textures/entity/zombie/zombie/zombie_snowy_1",
+        "zombie_snowy_2": "textures/entity/zombie/zombie/zombie_snowy_2",
+        "zombie_snowy_3": "textures/entity/zombie/zombie/zombie_snowy_3",
+        "zombie_snowy_4": "textures/entity/zombie/zombie/zombie_snowy_4",
+        "zombie_snowy_5": "textures/entity/zombie/zombie/zombie_snowy_5",
+        "zombie_snowy_6": "textures/entity/zombie/zombie/zombie_snowy_6",
+        "zombie_snowy_7": "textures/entity/zombie/zombie/zombie_snowy_7",
+        "zombie_snowy_8": "textures/entity/zombie/zombie/zombie_snowy_8",
+        "zombie_snowy_9": "textures/entity/zombie/zombie/zombie_snowy_9"
       },
       "geometry": {
         "default": "geometry.zombie.v1.8"
