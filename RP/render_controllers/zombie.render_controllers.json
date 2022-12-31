@@ -9,7 +9,7 @@
         }
       ],
       "textures": [
-        "query.is_name_any('Classic') ? Texture.default : (query.mark_variant == 0) ? Array.Plain[variable.Xvar] : (query.mark_variant == 1) ? Array.Jungle[variable.Xvar]"
+        "query.is_name_any('Classic') ? Texture.default : (query.mark_variant == 0) ? Array.Plain[variable.Xvar] : (query.mark_variant == 1) ? Array.Jungle[variable.Xvar] : (query.mark_variant == 2) ? Array.Swamp[variable.Xvar]"
       ],
       "arrays": {
         "textures": {
@@ -34,9 +34,21 @@
             "Texture.zombie_jungle_7",
             "Texture.zombie_jungle_8",
             "Texture.zombie_jungle_9"
+          ],
+          "Array.Swamp": [
+            "Texture.zombie_swamp_1",
+            "Texture.zombie_swamp_2",
+            "Texture.zombie_swamp_3",
+            "Texture.zombie_swamp_4",
+            "Texture.zombie_swamp_5",
+            "Texture.zombie_swamp_6",
+            "Texture.zombie_swamp_7",
+            "Texture.zombie_swamp_8",
+            "Texture.zombie_swamp_9"
           ]
         }
       }
     }
   }
+}
 }

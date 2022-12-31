@@ -26,7 +26,16 @@
         "zombie_jungle_6": "textures/entity/zombie/zombie/zombie_jungle_6",
         "zombie_jungle_7": "textures/entity/zombie/zombie/zombie_jungle_7",
         "zombie_jungle_8": "textures/entity/zombie/zombie/zombie_jungle_8",
-        "zombie_jungle_9": "textures/entity/zombie/zombie/zombie_jungle_9"
+        "zombie_jungle_9": "textures/entity/zombie/zombie/zombie_jungle_9",
+        "zombie_swamp_1": "textures/entity/zombie/zombie/zombie_swamp_1",
+        "zombie_swamp_2": "textures/entity/zombie/zombie/zombie_swamp_2",
+        "zombie_swamp_3": "textures/entity/zombie/zombie/zombie_swamp_3",
+        "zombie_swamp_4": "textures/entity/zombie/zombie/zombie_swamp_4",
+        "zombie_swamp_5": "textures/entity/zombie/zombie/zombie_swamp_5",
+        "zombie_swamp_6": "textures/entity/zombie/zombie/zombie_swamp_6",
+        "zombie_swamp_7": "textures/entity/zombie/zombie/zombie_swamp_7",
+        "zombie_swamp_8": "textures/entity/zombie/zombie/zombie_swamp_8",
+        "zombie_swamp_9": "textures/entity/zombie/zombie/zombie_swamp_9"
       },
       "geometry": {
         "default": "geometry.zombie.v1.8"
