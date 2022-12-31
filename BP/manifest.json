@@ -6,7 +6,7 @@
 		],
 		"generated_with": {
 			"bridge": [
-				"2.5.2"
+				"2.5.4"
 			],
 			"dash": [
 				"0.10.8"
@@ -25,7 +25,7 @@
 		"version": [
 			0,
 			0,
-			12
+			13
 		]
 	},
 	"modules": [
@@ -35,18 +35,7 @@
 			"version": [
 				0,
 				0,
-				12
-			]
-		},
-		{
-			"type": "script",
-			"language": "javascript",
-			"uuid": "63b62c15-e9ff-48ec-a9db-51e7ad03ff07",
-			"entry": "scripts/main.js",
-			"version": [
-				0,
-				0,
-				12
+				13
 			]
 		}
 	],
@@ -56,20 +45,8 @@
 			"version": [
 				0,
 				0,
-				12
+				13
 			]
-		},
-		{
-			"module_name": "@minecraft/server",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-gametest",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-ui",
-			"version": "1.0.0-beta"
 		}
 	]
 }

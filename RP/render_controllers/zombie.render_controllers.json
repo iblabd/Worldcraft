@@ -22,13 +22,7 @@
             "Texture.zombie_plain_6",
             "Texture.zombie_plain_7",
             "Texture.zombie_plain_8",
-            "Texture.zombie_plain_9",
-            "Texture.zombie_plain_10",
-            "Texture.zombie_plain_11",
-            "Texture.zombie_plain_12",
-            "Texture.zombie_plain_13",
-            "Texture.zombie_plain_14",
-            "Texture.zombie_plain_15"
+            "Texture.zombie_plain_9"
           ],
           "Array.Jungle": [
             "Texture.zombie_jungle_1",
@@ -39,13 +33,7 @@
             "Texture.zombie_jungle_6",
             "Texture.zombie_jungle_7",
             "Texture.zombie_jungle_8",
-            "Texture.zombie_jungle_9",
-            "Texture.zombie_jungle_10",
-            "Texture.zombie_jungle_11",
-            "Texture.zombie_jungle_12",
-            "Texture.zombie_jungle_13",
-            "Texture.zombie_jungle_14",
-            "Texture.zombie_jungle_15"
+            "Texture.zombie_jungle_9"
           ]
         }
       }
