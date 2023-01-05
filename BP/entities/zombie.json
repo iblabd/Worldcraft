@@ -133,6 +133,11 @@
         "minecraft:mark_variant": {
           "value": 3
         }
+      },
+      "outlaw_zombie": {
+        "minecraft:mark_variant": {
+          "value": 4
+        }
       }
     },
     "components": {
@@ -650,6 +655,25 @@
             "add": {
               "component_groups": [
                 "snowy_zombie"
+              ]
+            }
+          },
+          {
+            "filter": {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "mesa"
+                },
+                {
+                  "test": "has_biome_tag",
+                  "value": "savanna"
+                }
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "outlaw_zombie"
               ]
             }
           }

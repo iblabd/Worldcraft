@@ -9,7 +9,7 @@
         }
       ],
       "textures": [
-        "query.is_name_any('Classic') ? Texture.default : (query.mark_variant == 0) ? Array.Plain[variable.Xvar] : (query.mark_variant == 1) ? Array.Jungle[variable.Xvar] : (query.mark_variant == 2) ? Array.Swamp[variable.Xvar] : (query.mark_variant == 3) ? Array.Snowy[variable.Xvar] : "
+        "query.is_name_any('Classic') ? Texture.default : (query.mark_variant == 1) ? Array.Jungle[variable.Xvar] : (query.mark_variant == 2) ? Array.Swamp[variable.Xvar] : (query.mark_variant == 3) ? Array.Snowy[variable.Xvar] : (query.mark_variant == 4) ? Array.Outlaw[variable.Xvar] : Array.Plain[variable.Xvar]"
       ],
       "arrays": {
         "textures": {
@@ -56,6 +56,17 @@
             "Texture.zombie_snowy_7",
             "Texture.zombie_snowy_8",
             "Texture.zombie_snowy_9"
+          ],
+          "Array.Outlaw": [
+            "Texture.zombie_outlaw_1",
+            "Texture.zombie_outlaw_2",
+            "Texture.zombie_outlaw_3",
+            "Texture.zombie_outlaw_4",
+            "Texture.zombie_outlaw_5",
+            "Texture.zombie_outlaw_6",
+            "Texture.zombie_outlaw_7",
+            "Texture.zombie_outlaw_8",
+            "Texture.zombie_outlaw_9"
           ]
         }
       }
